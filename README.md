@@ -21,24 +21,24 @@ This tool is a CLI application that helps retail managers handle supermarket inv
 
 1. **Stage 1 (Guardrail & Input Analysis):** Evaluates user inputs for relevance to retail operations and extracts key inventory issues.
 2. **Stage 2 (Action Plan Generation):** Combines database inventory context with Gemini API analysis to generate actionable sales and stock strategies.
-3. **Report Saving:** Automatically exports the final recommendations to a local file for record-keeping[cite: 1].
+3. **Report Saving:** Automatically exports the final recommendations to a local file for record-keeping.
 
 ---
 
 ## ⚙️ Project Architecture
 
-* **`main.py`**: Interactive CLI menu and two-stage pipeline controller[cite: 1].
-* **`stage_1_guardrail.py`**: Prompt logic for validating retail inputs[cite: 1].
-* **`stage_2_strategist.py`**: Prompt logic for generating retail strategies[cite: 1].
-* **`database_manager.py`**: Queries stock levels and product catalog[cite: 1].
-* **`report_generator.py`**: Saves generated strategies to text/markdown format[cite: 1].
+* **`main.py`**: Interactive CLI menu and two-stage pipeline controller.
+* **`stage_1_guardrail.py`**: Prompt logic for validating retail inputs.
+* **`stage_2_strategist.py`**: Prompt logic for generating retail strategies.
+* **`database_manager.py`**: Queries stock levels and product catalog.
+* **`report_generator.py`**: Saves generated strategies to text/markdown format.
 
 ---
 
 ## 🚀 Quickstart & Setup
 
 ### 1. Prerequisites
-* Python 3.10 or higher[cite: 1]
+* Python 3.10 or higher
 
 ### 2. Install Dependencies
 ```bash
