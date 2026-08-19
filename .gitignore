@@ -1,0 +1,5 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+supermarket_action_plan.txt
